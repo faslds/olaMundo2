@@ -4,7 +4,8 @@
 int main (int argc,char *argv[])
 {
 	//aqui ele fala ola
-		printf("Hello git!");
+		if(argc>1) printf("Hello %s",argv[1]);
+		else printf("Hello git!");
 	return 0;	
 }
 
